@@ -16,5 +16,5 @@
 
 .hero-copy{min-width:0;max-width:100%}.hero-layout{grid-template-columns:minmax(0,1.05fr) minmax(0,1fr)}@media(max-width:900px){.hero-layout{grid-template-columns:minmax(0,1fr)}}
 .logo-mark > span {
-  color: #000000 !important;
+  color: #5C584F !important;
 }
