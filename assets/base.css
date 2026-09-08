@@ -18,3 +18,25 @@
 .logo-mark > span {
   color: #7A1F2B !important;
 }
+/* WEB DESIGNS — integrated W + diagonal arrow */
+.logo-mark {
+  position: relative;
+  color: #7A1F2B !important;
+}
+
+.logo-mark > span {
+  position: absolute !important;
+  color: #7A1F2B !important;
+
+  /* Move arrow toward the lower-left of the W */
+  left: 30%;
+  top: 28%;
+
+  /* Make the diagonal arrow prominent */
+  font-size: 1.25em;
+  line-height: 1;
+
+  /* Keep it pointing toward the upper-right */
+  transform: rotate(0deg) scale(1.35);
+  transform-origin: center;
+}
